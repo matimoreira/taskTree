@@ -108,7 +108,7 @@ $(function () {
 			beforeSend: showLoadingImg
 		})
 		.always(function() {
-			// remove loading image maybe
+			hideLoadingImg();
 			console.log('esto se ejecuta siempre');
 		})
 		.fail(function() {
