@@ -119,10 +119,12 @@ $(function () {
 	}
 
 	function showLoadingImg(){
+		$('#div--spinner').removeClass('d-none');
 		console.log('showLoadingImg');
 	}
 
 	function hideLoadingImg() {
+		$('#div--spinner').addClass('d-none');
 		console.log('hideLoadingImg');
 	}
 
