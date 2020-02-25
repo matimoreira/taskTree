@@ -24,6 +24,10 @@ html{
 	/*min-width: 1200px!important;*/
 	/*font-size: 3rem!important;*/
 }
+#modal--image{
+	width: 100%!important;
+
+}
 /* Móviles en horizontal o tablets en vertical
    ------------------------------------------------------------------------- */
 @media (min-width: 768px) { 
