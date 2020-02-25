@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="assets/styles/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body class="bg-light">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-secondary" id="navbar">
+		<div class="mr-auto">
+			<span class="icon">
+				<i class="fas fa-music"></i>
+			</span>
+			<a class="navbar-brand px-1 py-1" href="#">Music</a>
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+		<div class="collapse navbar-collapse" id="navbarToggler">
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Inicio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Buscar </a>
+				</li>
+			</ul>
+  		</div>
+		<form class="form-inline ml-auto d-none d-lg-block" id="form--search">
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Buscar Cancion">
+				<div class="input-group-prepend">
+					<span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+				</div>
+			</div>
+		</form>
+	</nav>
+	<section class="container-fluid d-flex flex-column justify-content-center align-items-center" id="how">
+		
+		<div class="row">
+			<div class="col-md-12">
+				<h3 class="display-1 dark-color mt-5 p-2 text-center">Music</h3>
+			</div>
+		</div>
+		<div class="row d-flex row-desktop m-5">
+			<div class="col-lg-6 col-md-12 col-sm-12  mt-5">
+				<div class="card shadow text-center">
+					<div class="card-body">
+						<img src="assets/resource/img/handset1.jpg" class="card-img-top bg-secondary w-75 align-items-center" style="border-radius: 50%"alt="...">
+						<h4 class="card-title display-4 font-weight-normal">Links</h4>
+						<p class="text-left">Encontra lo que buscaste en todas las plataformas de musica</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+				<div class="card shadow text-center">
+					<div class="card-body">
+						<img src="assets/resource/img/filter.jpg" class="card-img-top bg-secondary w-75 align-items-center" style="border-radius: 50%"alt="...">
+						<h4 class="card-title display-4 font-weight-normal">Filtrar</h4>
+						<p class="text-left">Filtra y ordena tu busqueda por inumerables parametros</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid mt-5 mb-5">
+
+		<div class="input-group input-group-lg">
+			<input type="text" class="form-control" placeholder="Buscar Cancion" id="query">
+			<div class="input-group-append">
+				<button class="btn btn-outline-secondary" type="button" id="button--search">
+					<i class="fas fa-search"></i>
+				</button>
+				
+			</div>
+		</div>
+		<div class="table-responsive">
+			<table class="table table-striped bg-white">
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th>Artista</th>
+						<th>Accion</th>
+					</tr>
+				</thead>
+				<tbody id="tbody--query">
+					<tr>
+						<td>lorem{1}</td>
+						<td>lorem{2}</td>
+						<td>
+							<!-- <a href="" class="btn btn-success"><i class="fab fa-spotify"></i></a>&nbsp
+							<a href="" class="btn btn-danger"><i class="fab fa-youtube"></i></a>&nbsp
+							<a href="" class="btn btn-warning">Genius</a>&nbsp -->
+							<a href="" class="btn btn-primary"><i class="far fa-eye"></i></a>
+						</td>
+					</tr>
+					<tr>
+						<td>lorem{1}</td>
+						<td>lorem{2}</td>
+						<td>
+							<!-- <a href="" class="btn btn-success"><i class="fab fa-spotify"></i></a>&nbsp
+							<a href="" class="btn btn-danger"><i class="fab fa-youtube"></i></a>&nbsp
+							<a href="" class="btn btn-warning">Genius</a>&nbsp -->
+							<a href="" class="btn btn-primary"><i class="far fa-eye"></i></a>
+						</td>
+					</tr>
+					<tr>
+						<td>lorem{1}</td>
+						<td>lorem{2}</td>
+						<td>
+							<!-- <a href="" class="btn btn-success"><i class="fab fa-spotify"></i></a>&nbsp
+							<a href="" class="btn btn-danger"><i class="fab fa-youtube"></i></a>&nbsp
+							<a href="" class="btn btn-warning">Genius</a>&nbsp -->
+							<a href="" class="btn btn-primary"><i class="far fa-eye"></i></a>
+						</td>
+					</tr>
+					<tr>
+						<td>lorem{1}</td>
+						<td>lorem{2}</td>
+						<td>
+							<!-- <a href="" class="btn btn-success"><i class="fab fa-spotify"></i></a>&nbsp
+							<a href="" class="btn btn-danger"><i class="fab fa-youtube"></i></a>&nbsp
+							<a href="" class="btn btn-warning">Genius</a>&nbsp -->
+							<a href="" class="btn btn-primary"><i class="far fa-eye"></i></a>
+						</td>
+					</tr>
+					<tr>
+						<td>lorem{1}</td>
+						<td>lorem{2}</td>
+						<td>
+							<!-- <a href="" class="btn btn-success"><i class="fab fa-spotify"></i></a>&nbsp
+							<a href="" class="btn btn-danger"><i class="fab fa-youtube"></i></a>&nbsp
+							<a href="" class="btn btn-warning">Genius</a>&nbsp -->
+							<a href="" class="btn btn-primary"><i class="far fa-eye"></i></a>
+						</td>
+					</tr>
+				</tbody>
+
+			</table>
+		</div>
+	</section>
+
+
+
+	
+	<script src="https://kit.fontawesome.com/9c0d9f5890.js" crossorigin="anonymous"></script>	
+	<script
+ 	src="https://code.jquery.com/jquery-3.4.1.min.js"
+  	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  	crossorigin="anonymous"></script>
+	<script 
+	src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+	crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+	crossorigin="anonymous"></script>
+	<script src="assets/js/functions.js"></script>
+</body>
+</html>

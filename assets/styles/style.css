@@ -1,0 +1,50 @@
+html{
+	scroll-behavior: smooth;
+}
+.navbar-brand{
+	/*font-size: 5rem!important;*/
+	color: white!important;
+}
+.nav-link{
+	/*font-size: 5rem!important;*/
+	color: white!important;
+}
+.icon{
+	/*font-size: 5rem!important;*/
+	color: purple;
+}
+.navbar-toggler{
+	/*font-size: 5rem!important*/;
+	color: black;
+}
+.form-control{
+	/*font-size: 3rem!important;*/
+}
+.table{
+	/*min-width: 1200px!important;*/
+	/*font-size: 3rem!important;*/
+}
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (min-width: 768px) { 
+	html{
+		font-size: 30px!important;
+	}
+	
+}
+ 
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (min-width: 1024px) {
+	html{
+		font-size: 20px!important;
+	}
+}
+ 
+/* Escritorios muy anchos
+   ------------------------------------------------------------------------- */
+@media (min-width: 1200px) {
+	html{
+		font-size: 15px!important;
+	}	
+}
